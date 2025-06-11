@@ -27,11 +27,13 @@ for (let i = 0; i < fruitBowl.length; i++) {
     console.log("For loop: " + fruitBowl[i])
 }
 
+// forEach med en Array
 fruitBowl.forEach((fruit) => {
     console.log("forEach: " + fruit)
     console.log(fruitBowl);
 })
 
+// map med en Array
 const fruitBowlMap = fruitBowl.map((fruit) => {
     return "One " + fruit
 })
